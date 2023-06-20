@@ -1,0 +1,20 @@
+.lw { font-size: 60px; }
+.carousel-item {
+  height: 400px; /* Adjust the height as desired */
+}
+
+
+.carousel-caption-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding: 20px;
+}
+.carousel-caption-overlay h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.carousel-caption-overlay p {
+  font-size: 16px;
+}
+
