@@ -1,24 +1,28 @@
-.lw { font-size: 60px; }
+/* Typography section */
+.lw {
+  font-size: 60px;
+}
+
+/* Carousel section */
 .carousel-item {
   height: 400px; /* Adjust the height as desired */
 }
-
 
 .carousel-caption-overlay {
   background-color: rgba(0, 0, 0, 0.7);
   color: #ffffff;
   padding: 20px;
 }
+
 .carousel-caption-overlay h3 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 .carousel-caption-overlay p {
   font-size: 16px;
 }
-
-/* Add this CSS to your existing style.css or create a new CSS file */
 
 /* Portfolio section */
 #portfolio {
@@ -43,8 +47,6 @@
   font-size: 14px;
   color: #777;
 }
-
-/* Add this CSS to your existing style.css or create a new CSS file */
 
 /* Contact section */
 #contact {
@@ -72,4 +74,44 @@
   margin-bottom: 0;
 }
 
+/* Header section */
+header {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
 
+.navbar-dark {
+  background-color: #000000; /
+}
+
+
+.navbar-brand {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+/* Animation section */
+.animated {
+  animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
